@@ -73,7 +73,7 @@ h2 {
   text-align: justify;
   padding: 20px 40px;
 }
-.contenedor img {
+.contenedor-img {
   float: right;
   height: auto;
   width: 30%;
@@ -85,12 +85,14 @@ h2 {
 }
 .galeria-contenedor {
   width: 100%;
-  display: flex;
   flex-wrap: wrap;
+  display: flex;
   justify-content: space-evenly;
 }
-.galeria-contenedor img {
+.galeria-img {
   width: 30%;
+  height: 300px;
+  object-fit: cover;
   margin-bottom: 30px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
   cursor: pointer;
